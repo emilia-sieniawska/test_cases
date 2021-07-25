@@ -66,7 +66,7 @@ Status: Pass
 Test Scenario ID: TS_02
 Test Scenario Description: Searching for the word "prowly" at google.com with results filtered by date
 Test Case ID: TS_02_TC_02
-Test Case Description: Searching for the word "prowly" at google.com with results filtered by date and published in July 2021 only
+Test Case Description: Searching for the word "prowly" at google.com with results filtered by date and published between 7/1/2021 and 7/25/2021
 Test Steps: 1. Go to https://www.google.com/
 2. Enter the word "prowly"
 3. Click "enter"
@@ -76,7 +76,7 @@ Test Steps: 1. Go to https://www.google.com/
 7. Enter the "do" date: 7/25/2021
 8. Click "OK" button
 Test Data: search item = "prowly"; search result release date span = 7/1/2021 - 7/25/2021
-Expected Result: User is able to see the list of results of searching that were published in July 2021
+Expected Result: User is able to see the list of results of searching that were published between 7/1/2021 and 7/25/2021
 Actual Result: As expected
 Status: Pass
 
