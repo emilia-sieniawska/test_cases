@@ -25,10 +25,10 @@ Test Case ID: TS_01_TC_02
 Test Case Description: Searching for the word "prowly" at google.com with results filtered by the category "News" and by search language "English"
 Test Steps: 1. Go to https://www.google.com/
 2. Click on "English" in the line under the search bar: "Korzystaj z Google w tych językach: English"
-2. Enter the word "prowly"
-3. Click "enter"
-4. Click on the category "News" under the search bar
-5. Click on the first search result on the result page
+3. Enter the word "prowly"
+4. Click "enter"
+5. Click on the category "News" under the search bar
+6. Click on the first search result on the result page
 Test Data: search item = "prowly"; search category = "News"; search language = "English"
 Expected Result: User is able to see the list of results of searching in English and go to the chosen webpage
 Actual Result: User is able to see the list of results of searching, most of which are in English, and go to the chosen webpage
