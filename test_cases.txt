@@ -83,13 +83,14 @@ Status: Pass
 Test Scenario ID: TS_02
 Test Scenario Description: Searching for the word "prowly" at google.com with results filtered by date
 Test Case ID: TS_02_TC_03
-Test Case Description: Searching for the word "prowly" at google.com with results filtered by date and published in the last year
+Test Case Description: Searching for the word "prowly" at google.com with results filtered by date and by category
 Test Steps: 1. Go to https://www.google.com/
 2. Enter the word "prowly"
 3. Click "enter"
-4. Click on the "Narzędzia" button
-5. Change the "Kiedykolwiek" field to "Ostatni rok"
-Test Data: search item = "prowly"; search result release date = "Ostatni rok"
-Expected Result: User is able to see the list of results of searching that were published in the last year
+4. Click on the category "Wiadomości" under the search bar
+5. Click on the "Narzędzia" button
+6. Change the "Kiedykolwiek" field to "Ostatni rok"
+Test Data: search item = "prowly"; search category = "Wiadomości"; search result release date = "Ostatni rok"
+Expected Result: User is able to see the list of results of searching in the category "Wiadomości" that were published in the last year
 Actual Result: As expected
 Status: Pass
